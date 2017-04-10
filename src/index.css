@@ -1,0 +1,113 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: black;
+  background: #A9A9A9;
+  
+}
+
+
+.header{
+			   height: 180px;
+    		background:#008B8B ;
+    		color: white;
+    		text-align: center;
+    		font-family: Arial, Helvetica, sans-serif;
+    		width: 100%;	
+        padding: 20px;
+}
+
+.list{
+	text-align:center;
+	font-size: 32px;
+   color:#8B008B
+}
+
+.myrow{
+  margin-bottom: 50px;
+}
+.ct-button{
+
+    margin:3% 0 3% 45%;
+    display: inline-block;
+    padding:16px;
+    background: pink;
+    border-radius: 5px;
+    
+}
+
+.column{
+	width: 33.33%;
+	float: left;
+	
+}
+h2{
+	text-align: center;
+	margin-top: 2%;
+}
+
+.myform{
+	margin-top: 3%;
+}
+
+.btn-outline {
+    color: white;
+    background-color:#008B8B;
+    border-color: #563d7c;
+}
+
+.btn-outline:hover {
+    color: white;
+    background-color: #00CED1;
+    cursor: pointer;
+    text-decoration-color: #563d7c !important;
+}
+
+.hrclass { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    opacity:.4;
+}
+
+.media img{
+    height: 120px;
+    width: 120px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all 1s ease;
+  transition: all .5s ease;
+}
+
+.media img:hover{
+    height: 150px;
+    width: 150px;
+}
+a{
+  color: #8B008B;
+}
+
+  @media screen and (max-width: 620px) {
+  	.header{
+  		height: 100px;
+  	}
+   .header h1{
+    		font-size: 28px;	
+	}
+	.header h3{
+    		font-size: 18px;	
+	}
+
+  .column{
+        width: 100%;
+        display: block;
+        float: left;
+  }
+
+}
+
